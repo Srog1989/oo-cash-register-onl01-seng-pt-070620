@@ -19,7 +19,8 @@ class CashRegister
   end
 end
     def items
-      @
+      @items.new = []
+    end
     
     # def void_last_transaction
     # end
