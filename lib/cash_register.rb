@@ -19,7 +19,7 @@ class CashRegister
   end
 end
     def items
-      @items = [items]
+      @items = [add_item]
     end
     
     # def void_last_transaction
