@@ -20,6 +20,7 @@ class CashRegister
 end
     def items
       @add_item = []
+      add_title
     end
     
     # def void_last_transaction
