@@ -19,7 +19,7 @@ class CashRegister
   end
 end
     def items
-      @add_item  = [] << title
+      @add_item  = [] << add_item.new
       
     end
     
