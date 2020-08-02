@@ -18,7 +18,7 @@ class CashRegister
       "After the discount, the total comes to $800."
   end
 end
-    def items(title)
+    def items
       @add_item = []
       
     end
