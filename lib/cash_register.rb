@@ -14,6 +14,7 @@ class CashRegister
     @total -= (@discount.to_f/100 * @total)
     if discount == 0
       "There is no discount to apply"
+    else ""
 end
 
     # def void_last_transaction
