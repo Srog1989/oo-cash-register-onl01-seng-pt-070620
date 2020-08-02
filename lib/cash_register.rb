@@ -14,7 +14,7 @@ class CashRegister
     @total -= (@discount.to_f/100 * @total)
     if discount == 0
       "There is no discount to apply"
-    else ""
+    else "After the discount, the total comes to $800."
 end
 
     # def void_last_transaction
